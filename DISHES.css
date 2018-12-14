@@ -1,0 +1,110 @@
+/*初期設定*/
+body{
+    margin:0px;
+    font-family:;
+    background:#FFFCEB;
+}
+
+h1{
+    color:#707070;
+}
+/* */
+
+/*ヘッダー*/
+.header{
+    position:fixed;
+    background-color:#FCDA7C;
+    top:0px;
+    left:0px;
+    z-index:  10px;
+    width:100%;
+    height:200px;
+}
+
+.header img{
+    padding:20px 0px;
+    padding-left:20px;
+    height:80%;
+    float:left;
+}
+
+.header h1{
+    font-size:100px;
+    margin:0px;
+    padding:20px;
+    float:left;
+}
+
+.header-b{
+    padding:100px 325px;
+}
+/* */
+
+/*メイン*/
+.main{
+    width:85%;
+    margin:0px auto;
+    margin-top:60px;
+    margin-bottom:30px;
+}
+
+/**ニュース**/
+.news{
+    width:780px;
+    height:520px;
+    margin:0 auto;
+    background-image:url(IMG_0597.png);
+    background-size:cover;
+    margin-bottom: 30px;
+}
+
+/** **/
+    
+/**めにゅ〜**/
+.manu{
+    width:100%;
+}
+
+.menu-icon{
+    display: inline-block;
+    float:left;
+    width:380px;
+    height:380px;
+    margin:10px;
+    margin-top:30px;
+    margin-left:20px;
+}
+.how{
+    height:100%;
+    width:100%;
+    background-image:url(webアイコン　使い方.png);
+    background-size:cover;
+    
+}
+
+.qa{
+    height:100%;
+    width:100%;
+    background-image:url(webアイコン　Q&A.png);
+    background-size:cover;
+    
+}
+
+.genre{
+    height:100%;
+    width:100%;
+    background-image:url(webアイコン　ジャンル.png);
+    background-size:cover;
+    
+}
+
+.food{
+    height:100%;
+    width:100%;
+    background-image:url(webアイコン　食材.png);
+    background-size:cover;
+    
+}
+/** **/
+
+/* */
